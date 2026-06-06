@@ -1,0 +1,36 @@
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+article {
+  padding: 15px;
+  margin: 10px;
+  background-color: darkblue;
+  color: #fff;
+  border-radius: 12px;
+}
+
+#headline {
+  text-align: center;
+  color: white;
+  background: linear-gradient(to right, #e74c3c, #3498db);
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+article img {
+  float: right;
+  width: 80px;
+  height: 80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a article:hover {
+  background-color: purple !important;
+  border: 2px solid #ff9900;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
